@@ -1,0 +1,5 @@
+name = str(input("Enter your name: "))
+age = int(input("Enter your age: "))
+nr = int(input("Enter the nr of copies: "))
+year = 2018 + (100 - age)
+print(nr * "Hello {}, you will turn 100 on the year {}!\n".format(name, year))
