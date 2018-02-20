@@ -1,0 +1,15 @@
+#get user input
+num = int(input("Enter a number: "))
+
+#set up the range
+range = list(range(1,(num + 1)))
+
+#create an empty list to store numbers in
+divList = []
+
+#check dividers of the num
+for i in range:
+  if num % i == 0:
+    divList.append(i) #add dividers into the list (divList)
+    
+print(divList)
