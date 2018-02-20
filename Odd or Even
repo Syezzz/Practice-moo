@@ -1,0 +1,14 @@
+num = int(input("Enter a number: "))
+check =  int(input("Enter a 2nd number: "))
+
+if num % 4 == 0:
+  print("The nr {} is a multiple of 4.".format(num))
+elif num % 2 == 0:
+  print("The nr {} is even.".format(num))
+else:
+  print("The nr {} is odd.".format(num))
+  
+if num % check == 0:
+  print("The number {} divides evenly into number {}.".format(num, check))
+else:
+  print("Not happening mate")
